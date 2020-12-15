@@ -37,5 +37,8 @@
   },
   "scripts": {
     "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "ini": "^2.0.0"
   }
 }
