@@ -74,4 +74,52 @@ Editor.builtinPlugins = [
   Underline,
 ];
 
+Editor.defaultConfig = {
+  toolbar: {
+    items: [
+      "heading",
+      "|",
+      "bold",
+      "italic",
+      "underline",
+      "|",
+      "fontColor",
+      "fontBackgroundColor",
+      "fontSize",
+      "fontFamily",
+      "highlight",
+      "|",
+      "bulletedList",
+      "numberedList",
+      "indent",
+      "outdent",
+      "alignment",
+      "|",
+      "link",
+      "imageUpload",
+      "mediaEmbed",
+      "insertTable",
+      "blockQuote",
+      "horizontalLine",
+      "|",
+      "undo",
+      "redo",
+      "htmlEmbed",
+    ],
+  },
+  language: "en",
+  image: {
+    toolbar: [
+      "imageTextAlternative",
+      "|",
+      "imageStyle:alignLeft",
+      "imageStyle:full",
+      "imageStyle:alignRight",
+    ],
+    styles: ["full", "alignLeft", "alignRight"],
+  },
+  table: {
+    contentToolbar: ["tableColumn", "tableRow", "mergeTableCells"],
+  },
+};
 export default Editor;
