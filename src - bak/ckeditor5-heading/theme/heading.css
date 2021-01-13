@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+ */
+
+.ck.ck-heading_heading1 {
+  font-size: 20px;
+}
+
+.ck.ck-heading_heading2 {
+  font-size: 17px;
+}
+
+.ck.ck-heading_heading3 {
+  font-size: 14px;
+}
+
+.ck.ck-heading_heading4 {
+  font-size: 11px;
+}
+
+.ck.ck-heading_heading5 {
+  font-size: 8px;
+}
+
+.ck.ck-heading_heading6 {
+  font-size: 5px;
+}
+
+.ck[class*="ck-heading_heading"] {
+  font-weight: bold;
+}
