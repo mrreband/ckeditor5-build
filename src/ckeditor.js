@@ -10,8 +10,8 @@ import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold.js";
 import CKFinder from "@ckeditor/ckeditor5-ckfinder/src/ckfinder.js";
 import CKFinderUploadAdapter from "@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js";
 import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor.js";
-import FontFamily from "@ckeditor/ckeditor5-font/src/fontfamily.js";
-import FontSize from "@ckeditor/ckeditor5-font/src/fontsize.js";
+// import FontFamily from "@ckeditor/ckeditor5-font/src/fontfamily.js";
+// import FontSize from "@ckeditor/ckeditor5-font/src/fontsize.js";
 
 import Essentials from "@ckeditor/ckeditor5-essentials/src/essentials.js";
 import Heading from "./ckeditor5-heading/src/heading.js";
