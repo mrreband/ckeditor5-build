@@ -1,1 +1,0 @@
-(function(d){	const l = d['hi'] = d['hi'] || {};	l.dictionary=Object.assign(		l.dictionary||{},		{"Document colors":"Document colors","Font Color":"Font Color"}	);l.getPluralForm=function(n){return (n != 1);;};})(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
