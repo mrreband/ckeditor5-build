@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2014-2020, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2014-2021, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 import ClassicEditor from "@ckeditor/ckeditor5-editor-classic/src/classiceditor.js";
@@ -10,8 +10,14 @@ import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold.js";
 import CKFinder from "@ckeditor/ckeditor5-ckfinder/src/ckfinder.js";
 import CKFinderUploadAdapter from "@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js";
 import Essentials from "@ckeditor/ckeditor5-essentials/src/essentials.js";
-import Heading from "@ckeditor/ckeditor5-heading/src/heading.js";
+import FontBackgroundColor from "@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js";
+import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor.js";
+import FontFamily from "@ckeditor/ckeditor5-font/src/fontfamily.js";
+import FontSize from "@ckeditor/ckeditor5-font/src/fontsize.js";
+import Heading from "./ckeditor5-heading/src/heading.js";
+import Highlight from "@ckeditor/ckeditor5-highlight/src/highlight.js";
 import HorizontalLine from "@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js";
+import HtmlEmbed from "@ckeditor/ckeditor5-html-embed/src/htmlembed.js";
 import Image from "@ckeditor/ckeditor5-image/src/image.js";
 import ImageCaption from "@ckeditor/ckeditor5-image/src/imagecaption.js";
 import ImageResize from "@ckeditor/ckeditor5-image/src/imageresize.js";
@@ -41,8 +47,14 @@ Editor.builtinPlugins = [
   CKFinder,
   CKFinderUploadAdapter,
   Essentials,
+  FontBackgroundColor,
+  FontColor,
+  FontFamily,
+  FontSize,
   Heading,
+  Highlight,
   HorizontalLine,
+  HtmlEmbed,
   Image,
   ImageCaption,
   ImageResize,
@@ -62,39 +74,4 @@ Editor.builtinPlugins = [
   Underline,
 ];
 
-Editor.defaultConfig = {
-  toolbar: {
-    items: [
-      "heading",
-      "|",
-      "bold",
-      "italic",
-      "underline",
-      "|",
-      "bulletedList",
-      "numberedList",
-      "indent",
-      "outdent",
-      "alignment",
-      "|",
-      "link",
-      "imageUpload",
-      "mediaEmbed",
-      "insertTable",
-      "blockQuote",
-      "horizontalLine",
-      "|",
-      "undo",
-      "redo",
-    ],
-  },
-  language: "en",
-  image: {
-    toolbar: ["imageTextAlternative", "|", "imageStyle:alignLeft", "imageStyle:full", "imageStyle:alignRight"],
-    styles: ["full", "alignLeft", "alignRight"],
-  },
-  table: {
-    contentToolbar: ["tableColumn", "tableRow", "mergeTableCells"],
-  }
-};
 export default Editor;
