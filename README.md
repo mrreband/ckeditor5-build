@@ -10,6 +10,12 @@ Includes everything in ClassicEditor plus the following plugins:
 - Alignment
 - HorizontalLine
 - ImageResize
+- Font Size
+- Font Family
+- Font Color
+- Font Background Color
+- Highlight
+- HTML embed
 
 ---
 
@@ -17,15 +23,19 @@ Includes everything in ClassicEditor plus the following plugins:
   toolbar: {
     items: [
       "heading",
-      "|","bold", "italic", "underline",
+      "|","bold", "italic", "underline", "fontColor",
       "|", "bulletedList", "numberedList", "indent", "outdent", "alignment",
       "|", "link", "imageUpload", "mediaEmbed", "insertTable", "blockQuote", "horizontalLine",
-      "|", "undo", "redo",
+      "|", "undo", "redo", "htmlEmbed"
     ],
   },
 ```
 
 ---
+
+Also includes a custom version of the header plugin: 
+
+By default, ckeditor reserves `h1` for the `Title` plugin.  This build does not use `Title`, so instead the headers correspond to the correct numbers in their resulting `h` tags. 
 
 TODO
 
