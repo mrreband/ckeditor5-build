@@ -203,14 +203,12 @@
     "@ckeditor/ckeditor5-typing" "^24.0.0"
     "@ckeditor/ckeditor5-undo" "^24.0.0"
 
-"@ckeditor/ckeditor5-font@^24.0.0":
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-24.0.0.tgz#9906121dd2a4132ef37ad1f88773a74e667db367"
-  integrity sha512-eqZwNR5ARCLNt8PG6K2SSTShfnp9guCrepMg/tZiWpeiQ3TzAEZ9bd4IPOUjTOfFLon4kAXdN6jXPFVvky5DsQ==
+"@ckeditor/ckeditor5-font@^27.0.0":
+  version "27.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-27.0.0.tgz#5b25e4245f707dcc853e58742055c89f8381b066"
+  integrity sha512-VLmELvzjRMq/pDTfpzQ8dtDuIWmWYe6Y3PuUtHILWyq7BZy8/CKF4Pgd8bhateKVUXezcBFOSxZcIGSPoCGnoA==
   dependencies:
-    "@ckeditor/ckeditor5-core" "^24.0.0"
-    "@ckeditor/ckeditor5-ui" "^24.0.0"
-    "@ckeditor/ckeditor5-utils" "^24.0.0"
+    ckeditor5 "^27.0.0"
 
 "@ckeditor/ckeditor5-highlight@^24.0.0":
   version "24.0.0"
