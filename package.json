@@ -46,5 +46,8 @@
   },
   "dependencies": {
     "ini": "^2.0.0"
+  },
+  "resolutions": {
+    "webpack-cli/webpack-merge/lodash": "4.17.21"
   }
 }
